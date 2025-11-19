@@ -240,3 +240,11 @@ footer {
   display: block;
   margin: 20px auto; /* center it */
 }
+.logo {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 120px;
+  height: auto;
+  z-index: 1000; /* makes sure it sits above the hero image */
+}
