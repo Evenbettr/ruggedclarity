@@ -19,16 +19,22 @@ body {
 }
 
 /* HERO */
+
 .hero {
     text-align: center;
     padding: 80px 20px;
     color: #f5f2ee;
 
-    /* fake wood: warm browns with a subtle gradient */
-    background: radial-gradient(circle at top left, #6b4a31 0, #3f2a1c 45%, #23160f 100%);
+    background-color: #3b2617; /* dark fallback */
+
+    background-image:
+        linear-gradient(rgba(0,0,0,0.35), rgba(0,0,0,0.35)),
+        url('wood-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-}
 
 .hero h1 {
     font-size: 2.8rem;
