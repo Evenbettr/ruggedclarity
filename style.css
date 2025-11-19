@@ -234,3 +234,9 @@ footer {
         padding: 18px 16px;
     }
 }
+.logo {
+  width: 120px;      /* adjust size */
+  height: auto;      /* keeps proportions */
+  display: block;
+  margin: 20px auto; /* center it */
+}
