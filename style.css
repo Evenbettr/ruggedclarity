@@ -9,18 +9,19 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 
-    /* deep gunmetal gradient */
-    background: radial-gradient(
-            circle at top left,
-            #4b4f52 0%,
-            #2f3437 40%,
-            #232628 100%
-        );
+    background: repeating-linear-gradient(
+        135deg,
+        #3a3d40 0px,
+        #3a3d40 2px,
+        #35383b 2px,
+        #35383b 4px
+    );
 
-    color: #e4e4e4; /* light steel text */
+    color: #e4e4e4;
     line-height: 1.6;
     padding-bottom: 40px;
 }
+
 
 /* HERO */
 
