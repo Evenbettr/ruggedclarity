@@ -254,4 +254,6 @@ footer {
     display: block;
     margin-left: auto;
     margin-right: auto; /* this centers it */
+    filter: brightness(1.25);
+
 }
