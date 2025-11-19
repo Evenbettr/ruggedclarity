@@ -249,7 +249,7 @@ footer {
   z-index: 1000; /* makes sure it sits above the hero image */
 }
 .hero-logo {
-    width: 80px;     /* adjust this to your taste — bigger than default */
+    width:100px;     /* adjust this to your taste — bigger than default */
     margin-bottom: 20px;
     display: block;
     margin-left: auto;
