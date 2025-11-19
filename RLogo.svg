@@ -1,0 +1,33 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background (optional – you can delete this in Affinity if you want transparent) -->
+  <rect width="512" height="512" fill="#f4f2ef"></rect>
+
+  <!-- Chiseled R -->
+  <path d="
+    M150 110
+    L150 402
+    L210 402
+    L210 310
+    L270 310
+    Q335 310 365 280
+    Q395 250 395 205
+    Q395 160 365 135
+    Q335 110 275 110
+    Z
+
+    M210 160
+    L270 160
+    Q305 160 320 175
+    Q335 190 335 205
+    Q335 220 320 235
+    Q305 250 270 250
+    L210 250
+    Z
+
+    M270 250
+    L355 402
+    L290 402
+    L230 290
+    Z
+  " fill="#111"></path>
+</svg>
