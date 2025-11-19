@@ -257,4 +257,8 @@ footer {
     margin-right: auto;
     filter: brightness(1.25) contrast(1.15);
 }
-
+.hero-logo:hover {
+    filter: brightness(1.4) contrast(1.25);
+    transform: scale(1.05);
+    transition: transform 0.2s ease, filter 0.2s ease;
+}
